@@ -1,0 +1,59 @@
+﻿{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/myawesomeapi/user/{id}",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "DownstreamPathTemplate": "/api/platformuser/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9980
+        }
+      ],
+      "Key": "User"
+    },
+    {
+      "UpstreamPathTemplate": "/myawesomeapi/educations/{id}",
+      "UpstreamHttpMethod": [
+        "Get"
+      ],
+      "DownstreamPathTemplate": "/api/education/educationdetail/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9981
+        }
+      ],
+      "Key": "Education"
+    },
+    {
+      "UpstreamPathTemplate": "/myawesomeapi/offer",
+      "UpstreamHttpMethod": [
+        "Post"
+      ],
+      "DownstreamPathTemplate": "/api/offer",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 9982
+        }
+      ],
+      "Key": "Suggestion"
+    }
+  ],
+  "Aggregates": [
+    {
+      "RouteKeys": [
+        "User",
+        "Education",
+        "Suggestion"
+      ],
+      "UpstreamPathTemplate": "/{id}"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+/Users/funivo/Projects/APIGateway_Ocalet_31/APIGateway_Ocalet_31/obj/Debug/netcoreapp3.1/APIGateway_Ocalet_31.csproj.AssemblyReference.cache
+/Users/funivo/Projects/APIGateway_Ocalet_31/APIGateway_Ocalet_31/obj/Debug/netcoreapp3.1/APIGateway_Ocalet_31.GeneratedMSBuildEditorConfig.editorconfig
+/Users/funivo/Projects/APIGateway_Ocalet_31/APIGateway_Ocalet_31/obj/Debug/netcoreapp3.1/APIGateway_Ocalet_31.AssemblyInfoInputs.cache
+/Users/funivo/Projects/APIGateway_Ocalet_31/APIGateway_Ocalet_31/obj/Debug/netcoreapp3.1/APIGateway_Ocalet_31.AssemblyInfo.cs
+/Users/funivo/Projects/APIGateway_Ocalet_31/APIGateway_Ocalet_31/obj/Debug/netcoreapp3.1/APIGateway_Ocalet_31.csproj.CoreCompileInputs.cache
+/Users/funivo/Projects/APIGateway_Ocalet_31/APIGateway_Ocalet_31/obj/Debug/netcoreapp3.1/APIGateway_Ocalet_31.MvcApplicationPartsAssemblyInfo.cache
