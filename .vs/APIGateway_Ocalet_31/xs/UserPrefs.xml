@@ -1,3 +1,35 @@
-﻿<Properties StartupConfiguration="{8EB582F6-0EBD-4C74-A321-305F5BC15F72}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{8EB582F6-0EBD-4C74-A321-305F5BC15F72}|Default">
+  <MonoDevelop.Ide.ItemProperties.APIGateway__Ocalet__31 PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ocalet.json">
+    <Files>
+      <File FileName="Program.cs" Line="31" Column="6" />
+      <File FileName="Startup.cs" Line="35" Column="48" />
+      <File FileName="appsettings.json" Line="2" Column="15" />
+      <File FileName="Controllers/WeatherForecastController.cs" Line="41" Column="1" />
+      <File FileName="ocalet.json" Line="60" Column="5" />
+      <File FileName="README.md" Line="19" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="APIGateway_Ocalet_31" expanded="True">
+            <Node name="APIGateway_Ocalet_31" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="ocalet.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MultiItemStartupConfigurations />
 </Properties>

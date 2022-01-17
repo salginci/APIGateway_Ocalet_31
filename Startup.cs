@@ -9,7 +9,8 @@
     using Microsoft.Extensions.Logging;
     using Ocelot.DependencyInjection;
     using Ocelot.Middleware;
-    using System;
+using Ocelot.Provider.Consul;
+using System;
 
 namespace APIGateway_Ocalet_31
 {
@@ -31,7 +32,7 @@ namespace APIGateway_Ocalet_31
         public void ConfigureServices(IServiceCollection services)
         {
            
-            services.AddOcelot();
+            services.AddOcelot().AddConsul();  
         }
 
         public async void Configure(IApplicationBuilder app, IWebHostEnvironment env)

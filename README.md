@@ -4,7 +4,16 @@
 
 Dependency: 
 
-Ocelot 
+Ocelot
+
+consul
+
+Consul is going to provide loadbalancer in our project.
+To run it via docker :
+docker pull consul
+docker run -p 8500:8500 consul
+
+
 
 API gateway sample base project. 
 

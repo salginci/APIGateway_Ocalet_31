@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8CVScL4Xjjjb4Ma3Y3lTR+jqZw1+aUemYdjH/qdP5airtZTxExo9AruAyMNBEz0uvWWJtACCUcRYIcB4Ryvcdw==",
+  "dgSpecHash": "45V4wSkgB5ETQ1xFJ3k8YFsyhBy7nMBeo/qz+8BCDacNQgEQ2xrHHxoJnIf/zg3DoFKpTVZWRK6yEKrgugvfkw==",
   "success": true,
   "projectFilePath": "/Users/funivo/development/Core/APIGateway_Ocalet_31/APIGateway_Ocalet_31.csproj",
   "expectedPackageFiles": [
+    "/Users/funivo/.nuget/packages/consul/1.6.10.4/consul.1.6.10.4.nupkg.sha512",
     "/Users/funivo/.nuget/packages/fluentvalidation/9.3.0/fluentvalidation.9.3.0.nupkg.sha512",
     "/Users/funivo/.nuget/packages/microsoft.aspnetcore.jsonpatch/5.0.0/microsoft.aspnetcore.jsonpatch.5.0.0.nupkg.sha512",
     "/Users/funivo/.nuget/packages/microsoft.aspnetcore.middlewareanalysis/5.0.0/microsoft.aspnetcore.middlewareanalysis.5.0.0.nupkg.sha512",
@@ -14,6 +15,7 @@
     "/Users/funivo/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
     "/Users/funivo/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "/Users/funivo/.nuget/packages/ocelot/17.0.1/ocelot.17.0.1.nupkg.sha512",
+    "/Users/funivo/.nuget/packages/ocelot.provider.consul/17.0.1/ocelot.provider.consul.17.0.1.nupkg.sha512",
     "/Users/funivo/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
   ],
   "logs": []

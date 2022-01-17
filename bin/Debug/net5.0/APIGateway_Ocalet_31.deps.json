@@ -33,7 +33,9 @@
     ".NETCoreApp,Version=v5.0": {
       "APIGateway_Ocalet_31/1.0.0": {
         "dependencies": {
+          "Consul": "1.6.10.4",
           "Ocelot": "17.0.1",
+          "Ocelot.Provider.Consul": "17.0.1",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -325,6 +327,20 @@
           "APIGateway_Ocalet_31.dll": {}
         }
       },
+      "Consul/1.6.10.4": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {
+            "assemblyVersion": "1.6.10.4",
+            "fileVersion": "1.6.10.4"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Consul.dll": {}
+        }
+      },
       "FluentValidation/9.3.0": {
         "runtime": {
           "lib/net5.0/FluentValidation.dll": {
@@ -437,6 +453,21 @@
         },
         "compile": {
           "lib/net5.0/Ocelot.dll": {}
+        }
+      },
+      "Ocelot.Provider.Consul/17.0.1": {
+        "dependencies": {
+          "Consul": "1.6.10.4",
+          "Ocelot": "17.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/Ocelot.Provider.Consul.dll": {
+            "assemblyVersion": "17.0.1.0",
+            "fileVersion": "17.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/Ocelot.Provider.Consul.dll": {}
         }
       },
       "System.Diagnostics.DiagnosticSource/4.7.1": {},
@@ -2146,6 +2177,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Consul/1.6.10.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5L3O7XirEx3bJ03OjMVdi/hdRLpkH/gRilgMZzk55Is5ttJ4GamwW+aONfFVneTKRKBpcCw/gIH5qoz4zomi1g==",
+      "path": "consul/1.6.10.4",
+      "hashPath": "consul.1.6.10.4.nupkg.sha512"
+    },
     "FluentValidation/9.3.0": {
       "type": "package",
       "serviceable": true,
@@ -2215,6 +2253,13 @@
       "sha512": "sha512-1I23FR6HMJ5G4Hb3lShnFyQTvCCIdSNYg7ilANsLN18bMVLpoKKb5q71nOnWoXECtTc7vUw5d9LmDNyc71J5ZQ==",
       "path": "ocelot/17.0.1",
       "hashPath": "ocelot.17.0.1.nupkg.sha512"
+    },
+    "Ocelot.Provider.Consul/17.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VKvvllo9yjPX3Wq3eu/G8JjlMpBCOTcXDXwDeaLLXQWEVOsNXW+Ilyi32p3m/fJuOOuDYkdOpvNy1PoSO9kvBg==",
+      "path": "ocelot.provider.consul/17.0.1",
+      "hashPath": "ocelot.provider.consul.17.0.1.nupkg.sha512"
     },
     "System.Diagnostics.DiagnosticSource/4.7.1": {
       "type": "package",

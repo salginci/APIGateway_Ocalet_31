@@ -40,6 +40,7 @@
 /Users/funivo/development/Core/APIGateway_Ocalet_31/bin/Debug/net5.0/APIGateway_Ocalet_31.dll
 /Users/funivo/development/Core/APIGateway_Ocalet_31/bin/Debug/net5.0/ref/APIGateway_Ocalet_31.dll
 /Users/funivo/development/Core/APIGateway_Ocalet_31/bin/Debug/net5.0/APIGateway_Ocalet_31.pdb
+/Users/funivo/development/Core/APIGateway_Ocalet_31/bin/Debug/net5.0/Consul.dll
 /Users/funivo/development/Core/APIGateway_Ocalet_31/bin/Debug/net5.0/FluentValidation.dll
 /Users/funivo/development/Core/APIGateway_Ocalet_31/bin/Debug/net5.0/Microsoft.AspNetCore.JsonPatch.dll
 /Users/funivo/development/Core/APIGateway_Ocalet_31/bin/Debug/net5.0/Microsoft.AspNetCore.MiddlewareAnalysis.dll
@@ -48,7 +49,7 @@
 /Users/funivo/development/Core/APIGateway_Ocalet_31/bin/Debug/net5.0/Newtonsoft.Json.dll
 /Users/funivo/development/Core/APIGateway_Ocalet_31/bin/Debug/net5.0/Newtonsoft.Json.Bson.dll
 /Users/funivo/development/Core/APIGateway_Ocalet_31/bin/Debug/net5.0/Ocelot.dll
-/Users/funivo/development/Core/APIGateway_Ocalet_31/obj/Debug/net5.0/APIGateway_Ocalet_31.csproj.AssemblyReference.cache
+/Users/funivo/development/Core/APIGateway_Ocalet_31/bin/Debug/net5.0/Ocelot.Provider.Consul.dll
 /Users/funivo/development/Core/APIGateway_Ocalet_31/obj/Debug/net5.0/APIGateway_Ocalet_31.GeneratedMSBuildEditorConfig.editorconfig
 /Users/funivo/development/Core/APIGateway_Ocalet_31/obj/Debug/net5.0/APIGateway_Ocalet_31.AssemblyInfoInputs.cache
 /Users/funivo/development/Core/APIGateway_Ocalet_31/obj/Debug/net5.0/APIGateway_Ocalet_31.AssemblyInfo.cs

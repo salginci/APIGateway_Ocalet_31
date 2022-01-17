@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Consul/1.6.10.4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Consul.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {}
+        }
+      },
       "FluentValidation/9.3.0": {
         "type": "package",
         "compile": {
@@ -122,6 +134,19 @@
           "lib/net5.0/Ocelot.dll": {}
         }
       },
+      "Ocelot.Provider.Consul/17.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Consul": "1.6.1.1",
+          "Ocelot": "17.0.1"
+        },
+        "compile": {
+          "lib/net5.0/Ocelot.Provider.Consul.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Ocelot.Provider.Consul.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/4.7.1": {
         "type": "package",
         "compile": {
@@ -134,6 +159,19 @@
     }
   },
   "libraries": {
+    "Consul/1.6.10.4": {
+      "sha512": "5L3O7XirEx3bJ03OjMVdi/hdRLpkH/gRilgMZzk55Is5ttJ4GamwW+aONfFVneTKRKBpcCw/gIH5qoz4zomi1g==",
+      "type": "package",
+      "path": "consul/1.6.10.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "consul.1.6.10.4.nupkg.sha512",
+        "consul.nuspec",
+        "lib/net461/Consul.dll",
+        "lib/netstandard2.0/Consul.dll"
+      ]
+    },
     "FluentValidation/9.3.0": {
       "sha512": "C44l6Ih+YwpED/TsXfl6LIq6Z4wLXahstnr6T70uUg1Hs7/bLBKKAo9Nl0sLhVjDE8TA+fF+O3IM4nDrwabcSQ==",
       "type": "package",
@@ -369,6 +407,18 @@
         "ocelot.nuspec"
       ]
     },
+    "Ocelot.Provider.Consul/17.0.1": {
+      "sha512": "VKvvllo9yjPX3Wq3eu/G8JjlMpBCOTcXDXwDeaLLXQWEVOsNXW+Ilyi32p3m/fJuOOuDYkdOpvNy1PoSO9kvBg==",
+      "type": "package",
+      "path": "ocelot.provider.consul/17.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Ocelot.Provider.Consul.dll",
+        "ocelot.provider.consul.17.0.1.nupkg.sha512",
+        "ocelot.provider.consul.nuspec"
+      ]
+    },
     "System.Diagnostics.DiagnosticSource/4.7.1": {
       "sha512": "j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
       "type": "package",
@@ -398,7 +448,9 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Ocelot >= 17.0.1"
+      "Consul >= 1.6.10.4",
+      "Ocelot >= 17.0.1",
+      "Ocelot.Provider.Consul >= 17.0.1"
     ]
   },
   "packageFolders": {
@@ -442,7 +494,15 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Consul": {
+            "target": "Package",
+            "version": "[1.6.10.4, )"
+          },
           "Ocelot": {
+            "target": "Package",
+            "version": "[17.0.1, )"
+          },
+          "Ocelot.Provider.Consul": {
             "target": "Package",
             "version": "[17.0.1, )"
           }

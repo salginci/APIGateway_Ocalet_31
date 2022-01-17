@@ -7,8 +7,12 @@
 
   <ItemGroup>
     <None Remove="Ocelot" />
+    <None Remove="Consul" />
+    <None Remove="Ocelot.Provider.Consul" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Ocelot" Version="17.0.1" />
+    <PackageReference Include="Consul" Version="1.6.10.4" />
+    <PackageReference Include="Ocelot.Provider.Consul" Version="17.0.1" />
   </ItemGroup>
 </Project>
